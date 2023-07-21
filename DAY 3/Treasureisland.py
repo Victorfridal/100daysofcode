@@ -20,15 +20,15 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************''')
 print("Welcome to Treasure Island. ")
 print("Your mission is to find the Treasure. ")
-map1 = input("you're at a cross road. Where do you want to go? Type Left or right ")
+map1 = input("you're at a cross road. Where do you want to go? Type Left or right.\n ")
 lower_case1 = map1.lower()
 
 
 if lower_case1 == "left":
-    map2 = input("You come to a lake. There is an island in the middle of the lake. Type wait to wait for your boat. type swim to swim across. ")
+    map2 = input("You come to a lake. There is an island in the middle of the lake. Type wait to wait for your boat. type swim to swim across.\n ")
     lower_case2 = map2.lower()
     if lower_case2 == "wait":
-        level2 = input("You arrived at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? ")
+        level2 = input("You arrived at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?.\n")
         lower_case3 = level2.lower()
         if lower_case3 == "yellow":
             print("You Win!")
